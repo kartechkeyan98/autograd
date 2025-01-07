@@ -21,7 +21,9 @@ PROBLEM: find d(a5)/dx, d(a5)/dy, d(a5)/dz
 ```
 Now this is cakewalk for humans who have knowledge of Calculus, but how to get computers to do it efficiently, is the million dollar question. That's where CG comes in, it is a data structure single handedly responsible for revolutionalizing the field of differential programming.<br>
 Just to give a preview of what is ahead, this is the computational graph that results from the above sequence of calculations.
-![[./images/compgraph.jpg|600|]]
+
+<img src="./images/comgraph.jpg" width="600">
+
 What these different orange nodes mean is the topic in the next section, but their naming itself clarifies what they do. This is the graphical representation of the sequence of computations top to bottom in the above case.
 ### 1. Nodes
 ___
