@@ -1,12 +1,12 @@
 # Introduction
-****
+
 **Autoflow** is an automatic differentiation library built on **NumPy** as the computation engine. The engine works on the idea of a *computation graph* where every calculation is broken down into a sequence of elementary operations and storing the inputs, intermediate results and outputs as the nodes of a graph, along with some other metadata which may be necessary to impart the functionality of automatic differentiation.
 
 # Computation Graph
-****
+
 This section deals with what the different aspects of the computation graph are and how they are implemented in code.
 ## Anatomy of a computation graph
-****
+
 A computation graph, CG in short, is a graphical way of representing the sequence of computations done by the programmer. Let's take an example and motivate the problem that we are solving.
 ```
 INPUTS: x = 3, y = 5, z = 4
