@@ -48,7 +48,7 @@ An operation takes in one or more nodes, does some basic computation on them cre
 Note that every operation comes with its corresponding **backward** function, which is also set to be the `grad_fn` of the node created by that operation.
 
 ## Library Structure
-****
+
 `autoflow/nodes.py` contains the implementation of the nodes, and every node is a subclass of `numpy.ndarray` with the extra attributes added to it.
 ```python
 class Node(np.ndarray):
